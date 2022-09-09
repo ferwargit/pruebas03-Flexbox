@@ -1,5 +1,146 @@
 * {
     box-sizing: border-box;
     padding: 0;
+    
 }
 
+body {
+    background-color: black;
+    border: 2px solid white;
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.container {
+    border: 1px solid black;
+    background-color: deeppink;
+    
+    width: auto;
+    height: 500px;
+    display: flex;
+
+
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* align-items: center; */
+    /* Acomoda segun el texto */
+    /* align-items: baseline; */
+    /* align-items: stretch; */
+
+    /* Flexbox requiere tener la propiedad flex-flow: row wrap */
+    /* align-content: flex-start; */
+
+    /* Agrega un espacio entre los elementos */
+    gap: 1%;
+
+
+
+}
+
+.item-1 {
+    border: 1px solid black;
+    background-color: cornflowerblue;
+
+    /* Centrado de texto */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+
+    width: 100px;
+    /* Si no le pongo altura va a tratar de cubrir toda la altura posible */
+    height: 20%
+}
+
+.item-2 {
+    border: 1px solid black;
+    background-color: darkseagreen;
+  
+    /* Centrado de texto */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 50px;
+    height: 30%;
+}
+
+.item-3 {
+    border: 1px solid black;
+    background-color: darkorange;
+    text-align: center;
+
+    /* Centrado de texto */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 80px;
+    height: 50%;
+}
+
+.item-4 {
+    border: 1px solid black;
+    background-color: darkturquoise;
+    text-align: center;
+
+    /* Centrado de texto */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+    height: 20%;
+}
+
+.item-5 {
+    border: 1px solid black;
+    background-color: darkviolet;
+    text-align: center;
+
+    /* Centrado de texto */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+    height: 20%;
+}
+
+.item-6 {
+    border: 1px solid black;
+    background-color: darkslategray;
+    text-align: center;
+
+    /* Centrado de texto */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: auto;
+    height: 20%;
+}
